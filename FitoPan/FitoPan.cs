@@ -9,7 +9,8 @@ using System.Windows.Forms;
 
 namespace FitoPan
 {
-    class FitoPan{
+    public class FitoPan
+    {
         private static FitoPan instance = new FitoPan();
         private SQL sql = new SQL();
 

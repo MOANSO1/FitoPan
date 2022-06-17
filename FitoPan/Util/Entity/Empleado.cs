@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FitoPan.Util.Entity
 {
-    class Empleado{
+    public class Empleado
+    {
         private String username;
         private String password;
 

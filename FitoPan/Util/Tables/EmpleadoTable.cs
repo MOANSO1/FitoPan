@@ -9,7 +9,8 @@ using System.Windows.Forms;
 
 namespace FitoPan.Util.Tables
 {
-    class EmpleadoTable{
+    public class EmpleadoTable
+    {
         public void insertEmpleado(Empleado empleado)
         {
             var url = "INSERT INTO EmpleadoTable(username, password) values (@username, @password);";

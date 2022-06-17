@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace FitoPan.Util
 {
-    class SQL {
+    public class SQL {
         private SqlConnection connection = null;
         private SqlCommand command = null;
 
