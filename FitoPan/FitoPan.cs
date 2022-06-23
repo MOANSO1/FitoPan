@@ -1,5 +1,6 @@
-﻿using FitoPan.Util;
-using FitoPan.Util.Tables;
+﻿using DataLayer;
+using DataLayer.Tables;
+using FitoPan.Menus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,23 +13,21 @@ namespace FitoPan
     public class FitoPan
     {
         private static FitoPan instance = new FitoPan();
-        private SQL sql = new SQL();
+        private ConnectionSQL connectionSQL = new ConnectionSQL();
+        private MaterialesTable materialesTable = new MaterialesTable();
+        private ProveedorTable proveedorTable = new ProveedorTable();
+        private Utilities util = new Utilities();
 
-        private EmpleadoTable empleadoTable = new EmpleadoTable();
-
-        public void startProgram()
-        {
-            sql.connectSQL();
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginMenu());
+        public void startProgram(){
+            ConnectionSQL.Instance.connectSQL();
+            new PrincipalMenu().Show();
+            Application.Run();
         }
 
-
-
         public static FitoPan getInstance(){return instance;}
-        public SQL getSQL() { return sql;}
-        
-        public EmpleadoTable getEmpleadoTable() { return empleadoTable; }
+        public ConnectionSQL getConnectionSQL(){return connectionSQL;}
+        public ProveedorTable getProveedorTable() { return proveedorTable; }
+        public MaterialesTable getMaterialesTable() { return materialesTable; }
+        public Utilities getUtilities() { return util; }
     }
 }

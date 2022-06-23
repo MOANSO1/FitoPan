@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitoPan", "FitoPan\FitoPan.csproj", "{7FC5C5E0-C02E-40FC-8EF6-87AEB78D44EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataObjects", "SystemSQL\DataObjects.csproj", "{1123FD5D-1CCE-41CE-9253-E310D760B7A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{4EE69C0D-849C-497B-8BFD-AFE9A3BBB23F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7FC5C5E0-C02E-40FC-8EF6-87AEB78D44EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC5C5E0-C02E-40FC-8EF6-87AEB78D44EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC5C5E0-C02E-40FC-8EF6-87AEB78D44EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1123FD5D-1CCE-41CE-9253-E310D760B7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1123FD5D-1CCE-41CE-9253-E310D760B7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1123FD5D-1CCE-41CE-9253-E310D760B7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1123FD5D-1CCE-41CE-9253-E310D760B7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE69C0D-849C-497B-8BFD-AFE9A3BBB23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE69C0D-849C-497B-8BFD-AFE9A3BBB23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE69C0D-849C-497B-8BFD-AFE9A3BBB23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE69C0D-849C-497B-8BFD-AFE9A3BBB23F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

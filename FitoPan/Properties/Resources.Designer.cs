@@ -73,6 +73,16 @@ namespace FitoPan.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FitoPanLogo {
+            get {
+                object obj = ResourceManager.GetObject("FitoPanLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LoginProfile {
             get {
                 object obj = ResourceManager.GetObject("LoginProfile", resourceCulture);

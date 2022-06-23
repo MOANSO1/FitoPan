@@ -47,11 +47,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FitoPan.cs" />
-    <Compile Include="Menus\LoginMenu.cs">
+    <Compile Include="Menus\MaterialMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menus\LoginMenu.Designer.cs">
-      <DependentUpon>LoginMenu.cs</DependentUpon>
+    <Compile Include="Menus\MaterialMenu.Designer.cs">
+      <DependentUpon>MaterialMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menus\PrincipalMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\PrincipalMenu.Designer.cs">
+      <DependentUpon>PrincipalMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menus\ProveedorMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\ProveedorMenu.Designer.cs">
+      <DependentUpon>ProveedorMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,11 +72,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Util\Entity\Empleado.cs" />
-    <Compile Include="Util\SQL.cs" />
-    <Compile Include="Util\Tables\EmpleadoTable.cs" />
-    <EmbeddedResource Include="Menus\LoginMenu.resx">
-      <DependentUpon>LoginMenu.cs</DependentUpon>
+    <EmbeddedResource Include="Menus\PrincipalMenu.resx">
+      <DependentUpon>PrincipalMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\PrincipalMenu.zu-ZA.resx">
+      <DependentUpon>PrincipalMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\ProveedorMenu.resx">
+      <DependentUpon>ProveedorMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,12 +99,24 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\LoginProfile.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ExitImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
+      <Project>{4ee69c0d-849c-497b-8bfd-afe9a3bbb23f}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemSQL\DataObjects.csproj">
+      <Project>{1123fd5d-1cce-41ce-9253-e310d760b7a3}</Project>
+      <Name>DataObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FitoPanLogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
