@@ -56,8 +56,8 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SystemSQL\DataObjects.csproj">
-      <Project>{1123FD5D-1CCE-41CE-9253-E310D760B7A3}</Project>
+    <ProjectReference Include="..\DataObjects\DataObjects.csproj">
+      <Project>{2badcfcd-4775-421f-86af-d17dacec1776}</Project>
       <Name>DataObjects</Name>
     </ProjectReference>
   </ItemGroup>

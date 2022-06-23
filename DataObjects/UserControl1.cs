@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SystemSQL
+namespace DataObjects
 {
     public partial class UserControl1: UserControl
     {

@@ -1,4 +1,4 @@
-﻿namespace SystemSQL
+﻿namespace DataObjects
 {
     partial class UserControl1
     {

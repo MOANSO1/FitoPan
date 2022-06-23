@@ -110,8 +110,8 @@
       <Project>{4ee69c0d-849c-497b-8bfd-afe9a3bbb23f}</Project>
       <Name>DataLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SystemSQL\DataObjects.csproj">
-      <Project>{1123fd5d-1cce-41ce-9253-e310d760b7a3}</Project>
+    <ProjectReference Include="..\DataObjects\DataObjects.csproj">
+      <Project>{2badcfcd-4775-421f-86af-d17dacec1776}</Project>
       <Name>DataObjects</Name>
     </ProjectReference>
   </ItemGroup>
