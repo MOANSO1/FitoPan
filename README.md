@@ -1,8 +1,8 @@
 <h1 align="center"> FitoPan | Almacen </h1>
 
-**Spanish:** Somos un grupo de la Universidad Privada del Norte que está desarrollando una herramienta que permite mejor facilidada dentro del almacen.
+**Spanish:** Somos un grupo de la Universidad Privada del Norte que está desarrollando una herramienta que permite mejor almacenamiento dentro del almacen.
 
-**English:** We are a group from the Universidad Privada del Norte that is developing a tool that allows better facilities within the warehouse.
+**English:** We are a group from the Universidad Privada del Norte that is developing a tool that allows better storage within the warehouse.
 
 
 <h2 align="center">My stats</h3>
